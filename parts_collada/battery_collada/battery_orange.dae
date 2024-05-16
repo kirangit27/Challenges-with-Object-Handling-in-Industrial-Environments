@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 3.6.8 commit date:2024-01-15, commit time:12:55, hash:f6ae60f3eeda</authoring_tool>
+    </contributor>
+    <created>2024-02-09T16:49:18</created>
+    <modified>2024-02-09T16:49:18</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect id="Material_015-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.9110001 0.246 0.013 1</color>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">0.2</float>
+            </reflectivity>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material_013-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.8000001 0.8 0 1</color>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">0.2</float>
+            </reflectivity>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Material_014-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <diffuse>
+              <color sid="diffuse">0.1 0.1 0.1 1</color>
+            </diffuse>
+            <reflectivity>
+              <float sid="specular">0.3</float>
+            </reflectivity>
+            <index_of_refraction>
+              <float sid="ior">1.45</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images/>
+  <library_materials>
+    <material id="Material_015-material" name="Material.015">
+      <instance_effect url="#Material_015-effect"/>
+    </material>
+    <material id="Material_013-material" name="Material.013">
+      <instance_effect url="#Material_013-effect"/>
+    </material>
+    <material id="Material_014-material" name="Material.014">
+      <instance_effect url="#Material_014-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="battery_base_004-mesh" name="battery_base.004">
+      <mesh>
+        <source id="battery_base_004-mesh-positions">
+          <float_array id="battery_base_004-mesh-positions-array" count="192">0.04499989 -0.02499997 0.03899997 -0.06400001 -0.02499997 9.99987e-4 0.04499989 -0.02499997 9.99987e-4 -0.06400001 -0.02499997 0.03899997 0.04499989 0.02399992 0 -0.06400001 -0.02399992 0 -0.06400001 0.02399992 0 0.04499989 -0.02399992 0 -0.06400001 0.02499997 9.99987e-4 0.04499989 0.02499997 9.99987e-4 0.04499989 -0.02399992 0.03999996 -0.06400001 -0.02399992 0.03999996 0.04499989 0.02499997 0.03899997 -0.06400001 0.02499997 0.03899997 0.04499989 0.02399992 0.03999996 -0.06400001 0.02399992 0.03999996 -0.06499999 0.02399992 0.03899997 -0.06499999 -0.02399992 0.03899997 -0.06499999 -0.02399992 9.99987e-4 -0.06499999 0.02399992 9.99987e-4 0.06699997 0.01199996 0.00999999 0.06499999 0.007999956 0.00999999 0.06499999 0.01199996 0.00999999 0.06699997 0.007999956 0.00999999 0.06499999 0.001999974 0.02999997 0.06699997 0.001999974 0.00999999 0.06499999 0.001999974 0.00999999 0.06699997 0.001999974 0.02999997 0.06699997 -0.007999956 0.00999999 0.06499999 -0.01199996 0.00999999 0.06499999 -0.007999956 0.00999999 0.06699997 -0.01199996 0.00999999 0.06499999 0.01199996 0.02999997 0.06499999 0.007999956 0.02999997 0.06699997 -0.001999974 0.02999997 0.06699997 -0.001999974 0.00999999 0.06499999 -0.001999974 0.02999997 0.06499999 -0.007999956 0.02999997 0.06499999 -0.01199996 0.02999997 0.06699997 0.01199996 0.02999997 0.06699997 0.007999956 0.02999997 0.06699997 -0.007999956 0.02999997 0.06699997 -0.01199996 0.02999997 0.06499999 -0.001999974 0.00999999 0.06400001 -0.02499997 9.99987e-4 0.04499989 -0.02399992 0 0.06400001 -0.02399992 0 0.04499989 -0.02499997 9.99987e-4 0.06400001 -0.02399992 0.03999996 0.04499989 0.02399992 0.03999996 0.04499989 -0.02399992 0.03999996 0.06400001 0.02399992 0.03999996 0.06400001 -0.02499997 0.03899997 0.06499999 -0.02399992 0.03899997 0.06499999 -0.02399992 9.99987e-4 0.06400001 0.02499997 0.03899997 0.06499999 0.02399992 9.99987e-4 0.06400001 0.02499997 9.99987e-4 0.06499999 0.02399992 0.03899997 0.04499989 -0.02499997 0.03899997 0.06400001 0.02399992 0 0.04499989 0.02399992 0 0.04499989 0.02499997 9.99987e-4 0.04499989 0.02499997 0.03899997</float_array>
+          <technique_common>
+            <accessor source="#battery_base_004-mesh-positions-array" count="64" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="battery_base_004-mesh-normals">
+          <float_array id="battery_base_004-mesh-normals-array" count="144">0.6302627 -0.717283 0.2971096 -0.3415869 -0.8755785 -0.3415856 0.6302624 -0.7172832 -0.2971097 -0.3415885 -0.8755779 0.3415858 0.6302623 0.2971081 -0.717284 -0.3415872 -0.3415862 -0.8755782 -0.3415872 0.3415862 -0.8755781 0.6302624 -0.2971076 -0.7172841 -0.3415884 0.8755779 -0.3415858 0.6302617 0.717284 -0.2971094 0.6302625 -0.2971075 0.717284 -0.3415876 -0.3415862 0.875578 0.6302624 0.7172836 0.297109 -0.3415871 0.8755783 0.3415861 0.6302627 0.2971082 0.7172835 -0.3415868 0.3415856 0.8755785 -0.8755794 0.3415854 0.3415849 -0.8755803 -0.3415838 0.341584 -0.8755795 -0.3415853 -0.3415846 -0.8755803 0.3415839 -0.3415843 0.5773504 0.5773501 -0.5773504 -0.5773504 -0.5773501 -0.5773504 -0.5773503 0.5773503 -0.5773503 0.5773503 -0.5773503 -0.5773503 -0.5773504 0.5773501 0.5773504 0.5773503 0.5773503 0.5773503 -0.5773503 -0.5773503 0.5773503 0.5773504 -0.5773501 0.5773504 0.3415883 -0.8755778 -0.341586 -0.6302624 -0.2971079 -0.717284 0.3415872 -0.3415862 -0.8755782 -0.6302626 -0.7172831 -0.2971094 0.3415867 -0.3415859 0.8755785 -0.6302624 0.2971075 0.717284 -0.6302626 -0.2971082 0.7172836 0.3415876 0.3415862 0.8755781 0.341587 -0.8755783 0.3415859 0.8755794 -0.3415854 0.3415849 0.8755803 -0.3415839 -0.3415843 0.3415884 0.8755778 0.341586 0.8755795 0.3415853 -0.3415846 0.3415868 0.8755785 -0.3415858 0.8755803 0.3415838 0.341584 -0.630262 -0.7172837 0.2971093 0.3415871 0.3415862 -0.8755782 -0.6302623 0.2971079 -0.717284 -0.6302624 0.7172833 -0.2971095 -0.6302632 0.7172825 0.2971097</float_array>
+          <technique_common>
+            <accessor source="#battery_base_004-mesh-normals-array" count="48" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="battery_base_004-mesh-vertices">
+          <input semantic="POSITION" source="#battery_base_004-mesh-positions"/>
+        </vertices>
+        <triangles material="Material_015-material" count="36">
+          <input semantic="VERTEX" source="#battery_base_004-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#battery_base_004-mesh-normals" offset="1"/>
+          <p>0 0 1 1 2 2 1 1 0 0 3 3 4 4 5 5 6 6 5 5 4 4 7 7 8 8 4 4 6 6 4 4 8 8 9 9 10 10 3 3 0 0 3 3 10 10 11 11 8 8 12 12 9 9 12 12 8 8 13 13 11 11 14 14 15 15 14 14 11 11 10 10 15 15 12 12 13 13 12 12 15 15 14 14 7 7 1 1 5 5 1 1 7 7 2 2 11 11 16 16 17 17 16 16 11 11 15 15 15 15 13 13 16 16 3 3 18 18 1 1 18 18 3 3 17 17 6 6 18 18 19 19 18 18 6 6 5 5 11 11 17 17 3 3 8 8 6 6 19 19 16 16 8 8 19 19 8 8 16 16 13 13 18 18 5 5 1 1 16 16 18 18 17 17 18 18 16 16 19 19 7 7 0 0 2 2 0 0 7 7 10 10 10 10 7 7 4 4 10 10 4 4 14 14 14 14 4 4 12 12 12 12 4 4 9 9</p>
+        </triangles>
+        <triangles material="Material_013-material" count="36">
+          <input semantic="VERTEX" source="#battery_base_004-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#battery_base_004-mesh-normals" offset="1"/>
+          <p>20 20 21 21 22 22 21 21 20 20 23 23 24 24 25 20 26 22 25 20 24 24 27 25 28 20 29 21 30 22 29 21 28 20 31 23 32 24 21 21 33 26 21 21 32 24 22 22 25 20 34 27 35 23 34 27 25 20 27 25 34 27 24 24 36 26 24 24 34 27 27 25 37 24 29 21 38 26 29 21 37 24 30 22 32 24 20 20 22 22 20 20 32 24 39 25 40 27 32 24 33 26 32 24 40 27 39 25 40 27 21 21 23 23 21 21 40 27 33 26 37 24 28 20 30 22 28 20 37 24 41 25 42 27 37 24 38 26 37 24 42 27 41 25 25 20 43 21 26 22 43 21 25 20 35 23 42 27 29 21 31 23 29 21 42 27 38 26 28 20 42 27 31 23 42 27 28 20 41 25 20 20 40 27 23 23 40 27 20 20 39 25 24 24 43 21 36 26 43 21 24 24 26 22 34 27 43 21 35 23 43 21 34 27 36 26</p>
+        </triangles>
+        <triangles material="Material_014-material" count="36">
+          <input semantic="VERTEX" source="#battery_base_004-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#battery_base_004-mesh-normals" offset="1"/>
+          <p>44 28 45 29 46 30 45 29 44 28 47 31 48 32 49 33 50 34 49 33 48 32 51 35 48 32 52 36 53 37 44 28 46 30 54 38 55 39 56 40 57 41 56 40 55 39 58 42 53 37 51 35 48 32 51 35 53 37 58 42 48 32 59 43 52 36 59 43 48 32 50 34 60 44 45 29 61 45 45 29 60 44 46 30 56 40 46 30 60 44 46 30 56 40 54 38 61 45 57 41 60 44 57 41 61 45 62 46 49 33 55 39 63 47 55 39 49 33 51 35 51 35 58 42 55 39 56 40 53 37 54 38 53 37 56 40 58 42 56 40 60 44 57 41 52 36 47 31 44 28 47 31 52 36 59 43 62 46 55 39 57 41 55 39 62 46 63 47 53 37 44 28 54 38 44 28 53 37 52 36 50 34 47 31 59 43 47 31 50 34 45 29 45 29 50 34 49 33 45 29 49 33 61 45 61 45 49 33 63 47 61 45 63 47 62 46</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="battery_base" name="battery_base" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#battery_base_004-mesh" name="battery_base">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Material_015-material" target="#Material_015-material"/>
+              <instance_material symbol="Material_013-material" target="#Material_013-material"/>
+              <instance_material symbol="Material_014-material" target="#Material_014-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
