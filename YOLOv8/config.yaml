@@ -1,0 +1,28 @@
+
+path: /home/ksp/Desktop/yolov8/Data_occ  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/val # val images (relative to 'path')
+
+
+# Classes
+names:
+  0: battery_blue
+  1: battery_green
+  2: battery_orange
+  3: battery_purple
+  4: battery_red
+  5: pump_blue
+  6: pump_green
+  7: pump_orange
+  8: pump_purple
+  9: pump_red
+  10: regulator_blue
+  11: regulator_green
+  12: regulator_orange
+  13: regulator_purple
+  14: regulator_red
+  15: sensor_blue
+  16: sensor_green
+  17: sensor_orange
+  18: sensor_purple
+  19: sensor_red
