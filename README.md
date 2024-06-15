@@ -15,6 +15,10 @@ Note: ARIAC 2024 is built for ROS2 Iron running on Ubuntu 22.04 (Jammy Jellyfish
 
 Once the package is installed, the required .stl files can be found within the /ariac/ariac_gazebo/models folder. Next, launch Blender to initiate the import process for each .stl object. In the final step of setting up the Blender scene for scripting, attention turns to configuring the camera. 
 
+<p align="center">
+  <img src="https://github.com/kirangit27/Challenges-with-Object-Handling-in-Industrial-Environments/blob/master/YOLOv8/sample%20results/Blender_setup.png" width="100%" />
+</p>
+
 ## YOLOv8 - Object Detection Model 
 
 YOLOv8 is a state-of-the-art deep learning model designed for real-time object detection. It achieves a balance between accuracy and speed, making it suitable for various computer vision tasks.
