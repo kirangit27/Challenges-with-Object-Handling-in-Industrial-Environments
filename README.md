@@ -85,6 +85,12 @@ A loss curve is a graph that tracks the model's error (or loss) as it learns fro
   <img src="https://github.com/kirangit27/Challenges-with-Object-Handling-in-Industrial-Environments/blob/master/YOLOv8/sample%20results/with%20occ/runs/detect/train/val_batch1_pred.jpg" width="40%" />
 </p>
 
+### Prediction example 
+
+<p align="center">
+  <img src="" width="80%" />
+</p>
+
 
 
 
